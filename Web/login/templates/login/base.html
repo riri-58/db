@@ -1,0 +1,123 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" href="img/fav.png">
+	<meta name="author" content="colorlib">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta charset="UTF-8">
+	<title>Travel</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+		
+
+
+		<link rel="stylesheet" href="{% static '/css/linearicons.css' %}">
+		<link rel="stylesheet" href="{% static '/css/font-awesome.min.css' %}">
+		<link rel="stylesheet" href="{% static '/css/bootstrap.css' %}">
+		<link rel="stylesheet" href="{% static '/css/magnific-popup.css' %}">
+		<link rel="stylesheet" href="{% static '/css/jquery-ui.css' %}">				
+		<link rel="stylesheet" href="{% static '/css/nice-select.css' %}">							
+		<link rel="stylesheet" href="{% static '/css/animate.min.css' %}">
+		<link rel="stylesheet" href="{% static '/css/owl.carousel.css' %}">				
+		<link rel="stylesheet" href="{% static '/css/main.css' %}">
+</head>
+<body>
+	<header id="header">
+			
+		<div class="container main-menu">
+			<div class="row align-items-center justify-content-between d-flex">
+			  <div id="logo">
+				<a href="index.html"><img src="{% static '/img/logo.png' %}" alt="" title="" /></a>
+			  </div>
+			  <nav id="nav-menu-container">
+				<ul class="nav-menu">
+				  <li><a href="index.html">Home</a></li>
+				  <li><a href="about.html">About</a></li>
+				  <li><a href="packages.html">Packages</a></li>
+				  <li><a href="hotels.html">Hotels</a></li>
+				  <li><a href="insurance.html">Insurence</a></li>
+				  <li class="menu-has-children"><a href="">Blog</a>
+					<ul>
+					  <li><a href="blog-home.html">Blog Home</a></li>
+					  <li><a href="blog-single.html">Blog Single</a></li>
+					</ul>
+				  </li>	
+				  <li class="menu-has-children"><a href="">Pages</a>
+					<ul>
+						  <li><a href="elements.html">Elements</a></li>
+						  <li class="menu-has-children"><a href="">Level 2 </a>
+							<ul>
+							  <li><a href="#">Item One</a></li>
+							  <li><a href="#">Item Two</a></li>
+							</ul>
+						  </li>					                		
+					</ul>
+				  </li>					          					          		          
+				  <li><a href="contact.html">Contact</a></li>
+				</ul>
+			  </nav>				      		  
+			</div>
+		</div>
+	</header>
+
+    {% block content %}
+
+    {% endblock %}
+	<footer class="footer-area section-gap">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-lg-3  col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+						<h6>About Agency</h6>
+						<p>
+							The world has become so fast paced that people don’t want to stand by reading a page of information, they would much rather look at a presentation and understand the message. It has come to a point 
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+						<h6>Navigation Links</h6>
+						<div class="row">
+							<div class="col">
+								<ul>
+									<li><a href="#">Home</a></li>
+									<li><a href="#">Feature</a></li>
+									<li><a href="#">Services</a></li>
+									<li><a href="#">Portfolio</a></li>
+								</ul>
+							</div>
+							<div class="col">
+								<ul>
+									<li><a href="#">Team</a></li>
+									<li><a href="#">Pricing</a></li>
+									<li><a href="#">Blog</a></li>
+									<li><a href="#">Contact</a></li>
+								</ul>
+							</div>										
+						</div>							
+					</div>
+				</div>									
+			</div>
+		</div>
+	</footer>
+
+	
+	<script src="{% static '/js/vendor/jquery-2.2.4.min.js' %}"></script>
+	<script src="{% static '/js/popper.min.js' %}"></script>
+	<script src="{% static '/js/vendor/bootstrap.min.js' %}"></script>			
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>		
+	<script src="{% static '/js/jquery-ui.js' %}"></script>					
+	<script src="{% static '/js/easing.min.js' %}"></script>			
+	<script src="{% static '/js/hoverIntent.js' %}"></script>
+	<script src="{% static '/js/superfish.min.js' %}"></script>	
+	<script src="{% static '/js/jquery.ajaxchimp.min.js' %}"></script>
+	<script src="{% static '/js/jquery.magnific-popup.min.js' %}"></script>						
+	<script src="{% static '/js/jquery.nice-select.min.js' %}"></script>					
+	<script src="{% static '/js/owl.carousel.min.js' %}"></script>								
+	<script src="{% static '/js/main.js' %}"></script>	
+</body>
+</html>
