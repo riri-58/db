@@ -10,12 +10,16 @@ public class User {
 	
 
 	public User(String firstName, String lastName, String userName, String password, String location, String gender) {
+		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.userName = userName;
 		this.password = password;
 		this.location = location;
 		this.gender = gender;
+	}
+	public User() {
+		// TODO Auto-generated constructor stub
 	}
 	public String getFirstName() {
 		return firstName;
